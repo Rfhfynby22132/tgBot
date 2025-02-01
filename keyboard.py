@@ -4,6 +4,7 @@ from aiogram.types import ReplyKeyboardMarkup,KeyboardButton,InlineKeyboardMarku
 
 
 main = ReplyKeyboardMarkup(keyboard=[[KeyboardButton(text='Каталог 🛍️')],
+                                     [KeyboardButton(text='Арсонтемент')],
                                      [KeyboardButton(text='Компания 🏢')],
                                      [KeyboardButton(text='О на 👤'),
                                       KeyboardButton(text='Сайт 🌐')]],
@@ -13,6 +14,20 @@ main = ReplyKeyboardMarkup(keyboard=[[KeyboardButton(text='Каталог 🛍�
 catalog = InlineKeyboardMarkup(inline_keyboard=[
     [InlineKeyboardButton(text='Футболка',callback_data='t-shirt')],
     [InlineKeyboardButton(text='Кроссовки',callback_data='sneakers')]])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
